@@ -1,0 +1,31 @@
+.div{
+    margin-top: 2rem;
+}
+
+.UserContainer{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(189, 43, 226);
+    color: azure;
+    border: none;
+    width: 150px;
+    height: 35px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    margin-left: 70%;
+}
+
+button:disabled {
+    display: none;
+}
+
+
+
